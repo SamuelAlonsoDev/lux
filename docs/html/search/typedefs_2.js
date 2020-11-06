@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['u16_20',['u16',['../namespacelux.html#a17de0b70da9064507a210f5cc08f4310',1,'lux']]],
-  ['u32_21',['u32',['../namespacelux.html#acbc232f537b1eb2f1403b91f0b7a4b00',1,'lux']]],
-  ['u64_22',['u64',['../namespacelux.html#afd944b237d9f88afc9a4b29a51de8e35',1,'lux']]],
-  ['u8_23',['u8',['../namespacelux.html#a95c9811d5a93ff91d6d4a53ee191e0b1',1,'lux']]]
+  ['s16_75',['s16',['../namespacelux.html#a92d5e1ad0386784cbc2a940e3508e0c9',1,'lux']]],
+  ['s32_76',['s32',['../namespacelux.html#a92e624db84b0bc88cd8af52e8464323e',1,'lux']]],
+  ['s64_77',['s64',['../namespacelux.html#a82e4b5f378938f91f6c7b887509fe22f',1,'lux']]],
+  ['s8_78',['s8',['../namespacelux.html#a4e4798e66f477dafafe2fd9ecd13ecd4',1,'lux']]]
 ];

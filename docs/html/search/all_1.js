@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['lux_2',['lux',['../namespacelux.html',1,'']]]
+  ['exception_3',['exception',['../namespacelux.html#a61b2d2830e87aff39431f0ec300a870f',1,'lux']]],
+  ['exception_2ehpp_4',['exception.hpp',['../exception_8hpp.html',1,'']]]
 ];

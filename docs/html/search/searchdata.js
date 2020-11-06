@@ -1,24 +1,36 @@
 var indexSectionsWithContent =
 {
-  0: "flstu",
-  1: "l",
-  2: "t",
-  3: "fsu"
+  0: "defilstuvw",
+  1: "i",
+  2: "l",
+  3: "eit",
+  4: "w",
+  5: "iv",
+  6: "efsu",
+  7: "dfs"
 };
 
 var indexSectionNames =
 {
   0: "all",
-  1: "namespaces",
-  2: "files",
-  3: "typedefs"
+  1: "classes",
+  2: "namespaces",
+  3: "files",
+  4: "functions",
+  5: "variables",
+  6: "typedefs",
+  7: "defines"
 };
 
 var indexSectionLabels =
 {
   0: "All",
-  1: "Namespaces",
-  2: "Files",
-  3: "Typedefs"
+  1: "Classes",
+  2: "Namespaces",
+  3: "Files",
+  4: "Functions",
+  5: "Variables",
+  6: "Typedefs",
+  7: "Macros"
 };
 
