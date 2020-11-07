@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['what_68',['what',['../classlux_1_1index__overflow.html#a94b327fa9b5f2829e5954b1086900271',1,'lux::index_overflow']]]
+  ['is_5fconstant_5fevaluated_236',['is_constant_evaluated',['../namespacelux_1_1concepts.html#a0766e7c29d2a6e998450f62a2fc6aa07',1,'lux::concepts']]]
 ];

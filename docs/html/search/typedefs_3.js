@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['u16_79',['u16',['../namespacelux.html#a17de0b70da9064507a210f5cc08f4310',1,'lux']]],
-  ['u32_80',['u32',['../namespacelux.html#acbc232f537b1eb2f1403b91f0b7a4b00',1,'lux']]],
-  ['u64_81',['u64',['../namespacelux.html#afd944b237d9f88afc9a4b29a51de8e35',1,'lux']]],
-  ['u8_82',['u8',['../namespacelux.html#a95c9811d5a93ff91d6d4a53ee191e0b1',1,'lux']]]
+  ['remove_5fconst_262',['remove_const',['../namespacelux_1_1concepts.html#a3bc6cb2059b4e9a7fbddaaec65b13461',1,'lux::concepts']]],
+  ['remove_5fpointer_263',['remove_pointer',['../namespacelux_1_1concepts.html#a6d2b7777e39d8dcbaab1381af7e172e4',1,'lux::concepts']]],
+  ['remove_5freferences_264',['remove_references',['../namespacelux_1_1concepts.html#ac53752868cdb716b28ac08dcc49c1445',1,'lux::concepts']]],
+  ['remove_5fvolatile_265',['remove_volatile',['../namespacelux_1_1concepts.html#ace2dda2ec259a20b925470043e086624',1,'lux::concepts']]]
 ];

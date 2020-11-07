@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['exception_3',['exception',['../namespacelux.html#a61b2d2830e87aff39431f0ec300a870f',1,'lux']]],
-  ['exception_2ehpp_4',['exception.hpp',['../exception_8hpp.html',1,'']]]
+  ['d128_10',['d128',['../intrinsics_8hpp.html#a4ff9958e3e87ea456a9b7cc844074c7f',1,'intrinsics.hpp']]],
+  ['d256_11',['d256',['../intrinsics_8hpp.html#aa52b10b695b93e2fd5e56b5f0e25d572',1,'intrinsics.hpp']]],
+  ['d512_12',['d512',['../intrinsics_8hpp.html#aa0448772b1ce8aaeeb179ec2fd58c586',1,'intrinsics.hpp']]]
 ];

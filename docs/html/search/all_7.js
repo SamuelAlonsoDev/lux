@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['u16_39',['u16',['../namespacelux.html#a17de0b70da9064507a210f5cc08f4310',1,'lux']]],
-  ['u32_40',['u32',['../namespacelux.html#acbc232f537b1eb2f1403b91f0b7a4b00',1,'lux']]],
-  ['u64_41',['u64',['../namespacelux.html#afd944b237d9f88afc9a4b29a51de8e35',1,'lux']]],
-  ['u8_42',['u8',['../namespacelux.html#a95c9811d5a93ff91d6d4a53ee191e0b1',1,'lux']]]
+  ['s128_128',['s128',['../intrinsics_8hpp.html#a75dc2d956acc07b32fecc461a5127559',1,'intrinsics.hpp']]],
+  ['s16_129',['s16',['../namespacelux.html#a92d5e1ad0386784cbc2a940e3508e0c9',1,'lux']]],
+  ['s32_130',['s32',['../namespacelux.html#a92e624db84b0bc88cd8af52e8464323e',1,'lux']]],
+  ['s64_131',['s64',['../namespacelux.html#a82e4b5f378938f91f6c7b887509fe22f',1,'lux']]],
+  ['s8_132',['s8',['../namespacelux.html#a4e4798e66f477dafafe2fd9ecd13ecd4',1,'lux']]]
 ];

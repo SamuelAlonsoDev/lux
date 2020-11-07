@@ -21,7 +21,7 @@ ask_console()
     echo Do you want this to be a console project? [y/n]
     read p
     if [ "$p" = "y" ]; then
-    export lux_mac_project="-D lux_console"
+    export lux_mac_project="-D lux_console -D lux_mac"
     elif [ "$p" = "n" ]; then
     export lux_mac_project="-D lux_mac"
     else

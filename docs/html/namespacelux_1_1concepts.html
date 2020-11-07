@@ -69,6 +69,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">lux::concepts Namespace Reference</div>  </div>
@@ -77,6 +79,10 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__array__class.html">is_array_class</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__array__class_3_01_t_0f_0e_4.html">is_array_class&lt; T[]&gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__basic__class.html">is_basic_class</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__basic__class_3_01bool_01_4.html">is_basic_class&lt; bool &gt;</a></td></tr>
@@ -101,29 +107,439 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__basic__class_3_01u8_01_4.html">is_basic_class&lt; u8 &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__const__class.html">is_const_class</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__const__class_3_01const_01_t_01_4.html">is_const_class&lt; const T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__floating__point__class.html">is_floating_point_class</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__floating__point__class_3_01f32_01_4.html">is_floating_point_class&lt; f32 &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__floating__point__class_3_01f64_01_4.html">is_floating_point_class&lt; f64 &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__integer__class.html">is_integer_class</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__integer__class_3_01bool_01_4.html">is_integer_class&lt; bool &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__integer__class_3_01s16_01_4.html">is_integer_class&lt; s16 &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__integer__class_3_01s32_01_4.html">is_integer_class&lt; s32 &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__integer__class_3_01s64_01_4.html">is_integer_class&lt; s64 &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__integer__class_3_01s8_01_4.html">is_integer_class&lt; s8 &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__integer__class_3_01u16_01_4.html">is_integer_class&lt; u16 &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__integer__class_3_01u32_01_4.html">is_integer_class&lt; u32 &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__integer__class_3_01u64_01_4.html">is_integer_class&lt; u64 &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__integer__class_3_01u8_01_4.html">is_integer_class&lt; u8 &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__lvalue__reference__class.html">is_lvalue_reference_class</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__lvalue__reference__class_3_01_t_01_6_01_4.html">is_lvalue_reference_class&lt; T &amp; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__pointer__class.html">is_pointer_class</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__pointer__class_3_01_t_01_5_01_4.html">is_pointer_class&lt; T * &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__reference__class.html">is_reference_class</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__reference__class_3_01_t_01_6_01_4.html">is_reference_class&lt; T &amp; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__reference__class_3_01_t_01_6_6_01_4.html">is_reference_class&lt; T &amp;&amp; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__rvalue__reference__class.html">is_rvalue_reference_class</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__rvalue__reference__class_3_01_t_01_6_6_01_4.html">is_rvalue_reference_class&lt; T &amp;&amp; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__same__class.html">is_same_class</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__same__class_3_01_t_00_01_t_01_4.html">is_same_class&lt; T, T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__signed__class.html">is_signed_class</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__signed__class_3_01f32_01_4.html">is_signed_class&lt; f32 &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__signed__class_3_01f64_01_4.html">is_signed_class&lt; f64 &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__signed__class_3_01s16_01_4.html">is_signed_class&lt; s16 &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__signed__class_3_01s32_01_4.html">is_signed_class&lt; s32 &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__signed__class_3_01s64_01_4.html">is_signed_class&lt; s64 &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__signed__class_3_01s8_01_4.html">is_signed_class&lt; s8 &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__unsigned__class.html">is_unsigned_class</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__unsigned__class_3_01bool_01_4.html">is_unsigned_class&lt; bool &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__unsigned__class_3_01u16_01_4.html">is_unsigned_class&lt; u16 &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__unsigned__class_3_01u32_01_4.html">is_unsigned_class&lt; u32 &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__unsigned__class_3_01u64_01_4.html">is_unsigned_class&lt; u64 &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__unsigned__class_3_01u8_01_4.html">is_unsigned_class&lt; u8 &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__volatile__class.html">is_volatile_class</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1is__volatile__class_3_01volatile_01_t_01_4.html">is_volatile_class&lt; volatile T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1remove__const__class.html">remove_const_class</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1remove__const__class_3_01const_01_t_01_4.html">remove_const_class&lt; const T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1remove__pointer__class.html">remove_pointer_class</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1remove__pointer__class_3_01_t_01_5_01_4.html">remove_pointer_class&lt; T * &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1remove__references__class.html">remove_references_class</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1remove__references__class_3_01_t_01_6_01_4.html">remove_references_class&lt; T &amp; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1remove__references__class_3_01_t_01_6_6_01_4.html">remove_references_class&lt; T &amp;&amp; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1remove__volatile__class.html">remove_volatile_class</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlux_1_1concepts_1_1remove__volatile__class_3_01volatile_01_t_01_4.html">remove_volatile_class&lt; volatile T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a2d32345007c8baddcc793b5f6d0e3e40"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a2d32345007c8baddcc793b5f6d0e3e40"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a2d32345007c8baddcc793b5f6d0e3e40">add_const</a> = const <a class="el" href="namespacelux_1_1concepts.html#ace2dda2ec259a20b925470043e086624">remove_volatile</a>&lt; <a class="el" href="namespacelux_1_1concepts.html#a3bc6cb2059b4e9a7fbddaaec65b13461">remove_const</a>&lt; T &gt; &gt;</td></tr>
+<tr class="memdesc:a2d32345007c8baddcc793b5f6d0e3e40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns safely at compile-time T with const qualifier.  <a href="namespacelux_1_1concepts.html#a2d32345007c8baddcc793b5f6d0e3e40">More...</a><br /></td></tr>
+<tr class="separator:a2d32345007c8baddcc793b5f6d0e3e40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77d312727619cc70af41da36bd419907"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a77d312727619cc70af41da36bd419907"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a77d312727619cc70af41da36bd419907">add_lvalue_reference</a> = <a class="el" href="namespacelux_1_1concepts.html#ac53752868cdb716b28ac08dcc49c1445">remove_references</a>&lt; T &gt; &amp;</td></tr>
+<tr class="memdesc:a77d312727619cc70af41da36bd419907"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns safely at compile-time T with lvalue reference type.  <a href="namespacelux_1_1concepts.html#a77d312727619cc70af41da36bd419907">More...</a><br /></td></tr>
+<tr class="separator:a77d312727619cc70af41da36bd419907"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8408f307d418594d45456f03ff00832d"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a8408f307d418594d45456f03ff00832d"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a8408f307d418594d45456f03ff00832d">add_pointer</a> = T *</td></tr>
+<tr class="memdesc:a8408f307d418594d45456f03ff00832d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time T with pointer type.  <a href="namespacelux_1_1concepts.html#a8408f307d418594d45456f03ff00832d">More...</a><br /></td></tr>
+<tr class="separator:a8408f307d418594d45456f03ff00832d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5bf0ee44fcb034b0be08bb48ca6d13a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ab5bf0ee44fcb034b0be08bb48ca6d13a"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#ab5bf0ee44fcb034b0be08bb48ca6d13a">add_rvalue_reference</a> = <a class="el" href="namespacelux_1_1concepts.html#ac53752868cdb716b28ac08dcc49c1445">remove_references</a>&lt; T &gt; &amp;&amp;</td></tr>
+<tr class="memdesc:ab5bf0ee44fcb034b0be08bb48ca6d13a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns safely at compile-time T with rvalue reference type.  <a href="namespacelux_1_1concepts.html#ab5bf0ee44fcb034b0be08bb48ca6d13a">More...</a><br /></td></tr>
+<tr class="separator:ab5bf0ee44fcb034b0be08bb48ca6d13a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2e7bf987998accc2dc6bdbbe836e801"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ad2e7bf987998accc2dc6bdbbe836e801"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#ad2e7bf987998accc2dc6bdbbe836e801">add_volatile</a> = volatile <a class="el" href="namespacelux_1_1concepts.html#ace2dda2ec259a20b925470043e086624">remove_volatile</a>&lt; <a class="el" href="namespacelux_1_1concepts.html#a3bc6cb2059b4e9a7fbddaaec65b13461">remove_const</a>&lt; T &gt; &gt;</td></tr>
+<tr class="memdesc:ad2e7bf987998accc2dc6bdbbe836e801"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns safely at compile-time T with volatile qualifier.  <a href="namespacelux_1_1concepts.html#ad2e7bf987998accc2dc6bdbbe836e801">More...</a><br /></td></tr>
+<tr class="separator:ad2e7bf987998accc2dc6bdbbe836e801"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bc6cb2059b4e9a7fbddaaec65b13461"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a3bc6cb2059b4e9a7fbddaaec65b13461"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a3bc6cb2059b4e9a7fbddaaec65b13461">remove_const</a> = typename <a class="el" href="classlux_1_1concepts_1_1remove__const__class.html">remove_const_class</a>&lt; T &gt;::type</td></tr>
+<tr class="memdesc:a3bc6cb2059b4e9a7fbddaaec65b13461"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time T without const qualifier if any.  <a href="namespacelux_1_1concepts.html#a3bc6cb2059b4e9a7fbddaaec65b13461">More...</a><br /></td></tr>
+<tr class="separator:a3bc6cb2059b4e9a7fbddaaec65b13461"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d2b7777e39d8dcbaab1381af7e172e4"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a6d2b7777e39d8dcbaab1381af7e172e4"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a6d2b7777e39d8dcbaab1381af7e172e4">remove_pointer</a> = typename <a class="el" href="classlux_1_1concepts_1_1remove__pointer__class.html">remove_pointer_class</a>&lt; T &gt;::type</td></tr>
+<tr class="memdesc:a6d2b7777e39d8dcbaab1381af7e172e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time T without pointer type if any.  <a href="namespacelux_1_1concepts.html#a6d2b7777e39d8dcbaab1381af7e172e4">More...</a><br /></td></tr>
+<tr class="separator:a6d2b7777e39d8dcbaab1381af7e172e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac53752868cdb716b28ac08dcc49c1445"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ac53752868cdb716b28ac08dcc49c1445"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#ac53752868cdb716b28ac08dcc49c1445">remove_references</a> = typename <a class="el" href="classlux_1_1concepts_1_1remove__references__class.html">remove_references_class</a>&lt; T &gt;::type</td></tr>
+<tr class="memdesc:ac53752868cdb716b28ac08dcc49c1445"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time T without lvalue or rvalue references if any.  <a href="namespacelux_1_1concepts.html#ac53752868cdb716b28ac08dcc49c1445">More...</a><br /></td></tr>
+<tr class="separator:ac53752868cdb716b28ac08dcc49c1445"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace2dda2ec259a20b925470043e086624"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ace2dda2ec259a20b925470043e086624"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#ace2dda2ec259a20b925470043e086624">remove_volatile</a> = typename <a class="el" href="classlux_1_1concepts_1_1remove__volatile__class.html">remove_volatile_class</a>&lt; T &gt;::type</td></tr>
+<tr class="memdesc:ace2dda2ec259a20b925470043e086624"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time T without volatile qualifier if any.  <a href="namespacelux_1_1concepts.html#ace2dda2ec259a20b925470043e086624">More...</a><br /></td></tr>
+<tr class="separator:ace2dda2ec259a20b925470043e086624"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a0766e7c29d2a6e998450f62a2fc6aa07"><td class="memItemLeft" align="right" valign="top">constexpr const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a0766e7c29d2a6e998450f62a2fc6aa07">is_constant_evaluated</a> () noexcept</td></tr>
+<tr class="memdesc:a0766e7c29d2a6e998450f62a2fc6aa07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if the expression is being evaluated as a constant expression.  <a href="namespacelux_1_1concepts.html#a0766e7c29d2a6e998450f62a2fc6aa07">More...</a><br /></td></tr>
+<tr class="separator:a0766e7c29d2a6e998450f62a2fc6aa07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:a085566a22518aa31163a8257619ee5fd"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a085566a22518aa31163a8257619ee5fd"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a085566a22518aa31163a8257619ee5fd">is_array</a> = <a class="el" href="classlux_1_1concepts_1_1is__array__class.html">is_array_class</a>&lt;T&gt;::value</td></tr>
+<tr class="memdesc:a085566a22518aa31163a8257619ee5fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T is an array type.  <a href="namespacelux_1_1concepts.html#a085566a22518aa31163a8257619ee5fd">More...</a><br /></td></tr>
+<tr class="separator:a085566a22518aa31163a8257619ee5fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fe121794453134c7dcb5e977eda0f18"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a9fe121794453134c7dcb5e977eda0f18"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a9fe121794453134c7dcb5e977eda0f18">is_basic</a> = <a class="el" href="classlux_1_1concepts_1_1is__basic__class.html">is_basic_class</a>&lt;T&gt;::value</td></tr>
 <tr class="memdesc:a9fe121794453134c7dcb5e977eda0f18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time whther or not T is a basic type <br  />
  <br  />
  Basic types are: bool, u8, s8, u16, s16, u32, s32, f32, u64, s64 and f64.  <a href="namespacelux_1_1concepts.html#a9fe121794453134c7dcb5e977eda0f18">More...</a><br /></td></tr>
 <tr class="separator:a9fe121794453134c7dcb5e977eda0f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd8792f02616cdd30612f05ed7b26ddb"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:acd8792f02616cdd30612f05ed7b26ddb"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#acd8792f02616cdd30612f05ed7b26ddb">is_const</a> = <a class="el" href="classlux_1_1concepts_1_1is__const__class.html">is_const_class</a>&lt;T&gt;::value</td></tr>
+<tr class="memdesc:acd8792f02616cdd30612f05ed7b26ddb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T has a const qualifier.  <a href="namespacelux_1_1concepts.html#acd8792f02616cdd30612f05ed7b26ddb">More...</a><br /></td></tr>
+<tr class="separator:acd8792f02616cdd30612f05ed7b26ddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55a4fe8dc9c976a815356fbb67e71788"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a55a4fe8dc9c976a815356fbb67e71788"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a55a4fe8dc9c976a815356fbb67e71788">is_floating_point</a> = <a class="el" href="classlux_1_1concepts_1_1is__floating__point__class.html">is_floating_point_class</a>&lt;T&gt;::value</td></tr>
 <tr class="memdesc:a55a4fe8dc9c976a815356fbb67e71788"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time whether or not T is a floating-point type <br  />
  <br  />
  Floating-point types are: f32 and f64.  <a href="namespacelux_1_1concepts.html#a55a4fe8dc9c976a815356fbb67e71788">More...</a><br /></td></tr>
 <tr class="separator:a55a4fe8dc9c976a815356fbb67e71788"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cee71d1627c884c6951f9dc984baa44"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a1cee71d1627c884c6951f9dc984baa44"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a1cee71d1627c884c6951f9dc984baa44">is_integer</a> = <a class="el" href="classlux_1_1concepts_1_1is__integer__class.html">is_integer_class</a>&lt;T&gt;::value</td></tr>
+<tr class="memdesc:a1cee71d1627c884c6951f9dc984baa44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T is an integer type <br  />
+ <br  />
+ Integer types are: bool, u8, s8, u16, s16, u32, s32, u64 and s64.  <a href="namespacelux_1_1concepts.html#a1cee71d1627c884c6951f9dc984baa44">More...</a><br /></td></tr>
+<tr class="separator:a1cee71d1627c884c6951f9dc984baa44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c2443ba6a23ae3b0392bcd5aa468089"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a3c2443ba6a23ae3b0392bcd5aa468089"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a3c2443ba6a23ae3b0392bcd5aa468089">is_lvalue_reference</a> = <a class="el" href="classlux_1_1concepts_1_1is__lvalue__reference__class.html">is_lvalue_reference_class</a>&lt;T&gt;::value</td></tr>
+<tr class="memdesc:a3c2443ba6a23ae3b0392bcd5aa468089"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T is an lvalue reference type.  <a href="namespacelux_1_1concepts.html#a3c2443ba6a23ae3b0392bcd5aa468089">More...</a><br /></td></tr>
+<tr class="separator:a3c2443ba6a23ae3b0392bcd5aa468089"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78f7fa72555a58419f343f5d9e82b965"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a78f7fa72555a58419f343f5d9e82b965"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a78f7fa72555a58419f343f5d9e82b965">is_pointer</a> = <a class="el" href="classlux_1_1concepts_1_1is__pointer__class.html">is_pointer_class</a>&lt;T&gt;::value</td></tr>
+<tr class="memdesc:a78f7fa72555a58419f343f5d9e82b965"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T is a pointer type.  <a href="namespacelux_1_1concepts.html#a78f7fa72555a58419f343f5d9e82b965">More...</a><br /></td></tr>
+<tr class="separator:a78f7fa72555a58419f343f5d9e82b965"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af384e6a55930c9807342a2cfcf7c0e31"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:af384e6a55930c9807342a2cfcf7c0e31"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#af384e6a55930c9807342a2cfcf7c0e31">is_reference</a> = <a class="el" href="classlux_1_1concepts_1_1is__reference__class.html">is_reference_class</a>&lt;T&gt;::value</td></tr>
+<tr class="memdesc:af384e6a55930c9807342a2cfcf7c0e31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T is a reference.  <a href="namespacelux_1_1concepts.html#af384e6a55930c9807342a2cfcf7c0e31">More...</a><br /></td></tr>
+<tr class="separator:af384e6a55930c9807342a2cfcf7c0e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9665131c39a40b27f47c5e9d16e1e254"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a9665131c39a40b27f47c5e9d16e1e254"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a9665131c39a40b27f47c5e9d16e1e254">is_rvalue_reference</a> = <a class="el" href="classlux_1_1concepts_1_1is__rvalue__reference__class.html">is_rvalue_reference_class</a>&lt;T&gt;::value</td></tr>
+<tr class="memdesc:a9665131c39a40b27f47c5e9d16e1e254"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T is an rvalue reference type.  <a href="namespacelux_1_1concepts.html#a9665131c39a40b27f47c5e9d16e1e254">More...</a><br /></td></tr>
+<tr class="separator:a9665131c39a40b27f47c5e9d16e1e254"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e39955ae01848782888bd4b4cc377fa"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:a0e39955ae01848782888bd4b4cc377fa"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a0e39955ae01848782888bd4b4cc377fa">is_same</a> = <a class="el" href="classlux_1_1concepts_1_1is__same__class.html">is_same_class</a>&lt;T, U&gt;::value</td></tr>
+<tr class="memdesc:a0e39955ae01848782888bd4b4cc377fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U are the same type <br  />
+ <br  />
+ Remember that it doesn't check if T and U are derived/parent types.  <a href="namespacelux_1_1concepts.html#a0e39955ae01848782888bd4b4cc377fa">More...</a><br /></td></tr>
+<tr class="separator:a0e39955ae01848782888bd4b4cc377fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7cf4e6cf0af6ba43689b2934ae72106"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ae7cf4e6cf0af6ba43689b2934ae72106"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#ae7cf4e6cf0af6ba43689b2934ae72106">is_signed</a> = <a class="el" href="classlux_1_1concepts_1_1is__signed__class.html">is_signed_class</a>&lt;T&gt;::value</td></tr>
+<tr class="memdesc:ae7cf4e6cf0af6ba43689b2934ae72106"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile time if T is a signed type <br  />
+ <br  />
+ Signed types are: s8, s16, s32, f32, s64 and f64.  <a href="namespacelux_1_1concepts.html#ae7cf4e6cf0af6ba43689b2934ae72106">More...</a><br /></td></tr>
+<tr class="separator:ae7cf4e6cf0af6ba43689b2934ae72106"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34378825cca0ea451d21614fb0354d43"><td class="memTemplParams" colspan="2">template&lt;class T , const u64 Size&gt; </td></tr>
+<tr class="memitem:a34378825cca0ea451d21614fb0354d43"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a34378825cca0ea451d21614fb0354d43">is_size</a> = sizeof(T) == Size</td></tr>
+<tr class="memdesc:a34378825cca0ea451d21614fb0354d43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if Size is equal to the size of T.  <a href="namespacelux_1_1concepts.html#a34378825cca0ea451d21614fb0354d43">More...</a><br /></td></tr>
+<tr class="separator:a34378825cca0ea451d21614fb0354d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b3bf064d71c8cb9e1bda87bf4c7ccce"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a5b3bf064d71c8cb9e1bda87bf4c7ccce"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a5b3bf064d71c8cb9e1bda87bf4c7ccce">is_unsigned</a> = <a class="el" href="classlux_1_1concepts_1_1is__unsigned__class.html">is_unsigned_class</a>&lt;T&gt;::value</td></tr>
+<tr class="memdesc:a5b3bf064d71c8cb9e1bda87bf4c7ccce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T is unsigned type <br  />
+ <br  />
+ Unsigned types are: bool, u8, u16, u32 and u64.  <a href="namespacelux_1_1concepts.html#a5b3bf064d71c8cb9e1bda87bf4c7ccce">More...</a><br /></td></tr>
+<tr class="separator:a5b3bf064d71c8cb9e1bda87bf4c7ccce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a056912d11edbed52f28b1ec36a7bb610"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a056912d11edbed52f28b1ec36a7bb610"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a056912d11edbed52f28b1ec36a7bb610">is_void</a> = <a class="el" href="namespacelux_1_1concepts.html#a0e39955ae01848782888bd4b4cc377fa">is_same</a>&lt;<a class="el" href="namespacelux_1_1concepts.html#a3bc6cb2059b4e9a7fbddaaec65b13461">remove_const</a>&lt;<a class="el" href="namespacelux_1_1concepts.html#ace2dda2ec259a20b925470043e086624">remove_volatile</a>&lt;T&gt;&gt;, void&gt;</td></tr>
+<tr class="memdesc:a056912d11edbed52f28b1ec36a7bb610"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T without const and volatile qualifiers is the same type as void.  <a href="namespacelux_1_1concepts.html#a056912d11edbed52f28b1ec36a7bb610">More...</a><br /></td></tr>
+<tr class="separator:a056912d11edbed52f28b1ec36a7bb610"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a655e5ee587a89c4441f2cf8f5bef6fa9"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a655e5ee587a89c4441f2cf8f5bef6fa9"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a655e5ee587a89c4441f2cf8f5bef6fa9">is_volatile</a> = <a class="el" href="classlux_1_1concepts_1_1is__volatile__class.html">is_volatile_class</a>&lt;T&gt;::value</td></tr>
+<tr class="memdesc:a655e5ee587a89c4441f2cf8f5bef6fa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T has volatile qualifier.  <a href="namespacelux_1_1concepts.html#a655e5ee587a89c4441f2cf8f5bef6fa9">More...</a><br /></td></tr>
+<tr class="separator:a655e5ee587a89c4441f2cf8f5bef6fa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a2d32345007c8baddcc793b5f6d0e3e40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d32345007c8baddcc793b5f6d0e3e40">&#9670;&nbsp;</a></span>add_const</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacelux_1_1concepts.html#a2d32345007c8baddcc793b5f6d0e3e40">lux::concepts::add_const</a> = typedef const <a class="el" href="namespacelux_1_1concepts.html#ace2dda2ec259a20b925470043e086624">remove_volatile</a>&lt;<a class="el" href="namespacelux_1_1concepts.html#a3bc6cb2059b4e9a7fbddaaec65b13461">remove_const</a>&lt;T&gt; &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns safely at compile-time T with const qualifier. </p>
+
+</div>
+</div>
+<a id="a77d312727619cc70af41da36bd419907"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77d312727619cc70af41da36bd419907">&#9670;&nbsp;</a></span>add_lvalue_reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacelux_1_1concepts.html#a77d312727619cc70af41da36bd419907">lux::concepts::add_lvalue_reference</a> = typedef <a class="el" href="namespacelux_1_1concepts.html#ac53752868cdb716b28ac08dcc49c1445">remove_references</a>&lt;T&gt;&amp;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns safely at compile-time T with lvalue reference type. </p>
+
+</div>
+</div>
+<a id="a8408f307d418594d45456f03ff00832d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8408f307d418594d45456f03ff00832d">&#9670;&nbsp;</a></span>add_pointer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacelux_1_1concepts.html#a8408f307d418594d45456f03ff00832d">lux::concepts::add_pointer</a> = typedef T*</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time T with pointer type. </p>
+
+</div>
+</div>
+<a id="ab5bf0ee44fcb034b0be08bb48ca6d13a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5bf0ee44fcb034b0be08bb48ca6d13a">&#9670;&nbsp;</a></span>add_rvalue_reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacelux_1_1concepts.html#ab5bf0ee44fcb034b0be08bb48ca6d13a">lux::concepts::add_rvalue_reference</a> = typedef <a class="el" href="namespacelux_1_1concepts.html#ac53752868cdb716b28ac08dcc49c1445">remove_references</a>&lt;T&gt;&amp;&amp;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns safely at compile-time T with rvalue reference type. </p>
+
+</div>
+</div>
+<a id="ad2e7bf987998accc2dc6bdbbe836e801"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2e7bf987998accc2dc6bdbbe836e801">&#9670;&nbsp;</a></span>add_volatile</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacelux_1_1concepts.html#ad2e7bf987998accc2dc6bdbbe836e801">lux::concepts::add_volatile</a> = typedef volatile <a class="el" href="namespacelux_1_1concepts.html#ace2dda2ec259a20b925470043e086624">remove_volatile</a>&lt;<a class="el" href="namespacelux_1_1concepts.html#a3bc6cb2059b4e9a7fbddaaec65b13461">remove_const</a>&lt;T&gt; &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns safely at compile-time T with volatile qualifier. </p>
+
+</div>
+</div>
+<a id="a3bc6cb2059b4e9a7fbddaaec65b13461"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bc6cb2059b4e9a7fbddaaec65b13461">&#9670;&nbsp;</a></span>remove_const</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacelux_1_1concepts.html#a3bc6cb2059b4e9a7fbddaaec65b13461">lux::concepts::remove_const</a> = typedef typename <a class="el" href="classlux_1_1concepts_1_1remove__const__class.html">remove_const_class</a>&lt;T&gt;::type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time T without const qualifier if any. </p>
+
+</div>
+</div>
+<a id="a6d2b7777e39d8dcbaab1381af7e172e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d2b7777e39d8dcbaab1381af7e172e4">&#9670;&nbsp;</a></span>remove_pointer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacelux_1_1concepts.html#a6d2b7777e39d8dcbaab1381af7e172e4">lux::concepts::remove_pointer</a> = typedef typename <a class="el" href="classlux_1_1concepts_1_1remove__pointer__class.html">remove_pointer_class</a>&lt;T&gt;::type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time T without pointer type if any. </p>
+
+</div>
+</div>
+<a id="ac53752868cdb716b28ac08dcc49c1445"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac53752868cdb716b28ac08dcc49c1445">&#9670;&nbsp;</a></span>remove_references</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacelux_1_1concepts.html#ac53752868cdb716b28ac08dcc49c1445">lux::concepts::remove_references</a> = typedef typename <a class="el" href="classlux_1_1concepts_1_1remove__references__class.html">remove_references_class</a>&lt;T&gt;::type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time T without lvalue or rvalue references if any. </p>
+
+</div>
+</div>
+<a id="ace2dda2ec259a20b925470043e086624"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace2dda2ec259a20b925470043e086624">&#9670;&nbsp;</a></span>remove_volatile</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacelux_1_1concepts.html#ace2dda2ec259a20b925470043e086624">lux::concepts::remove_volatile</a> = typedef typename <a class="el" href="classlux_1_1concepts_1_1remove__volatile__class.html">remove_volatile_class</a>&lt;T&gt;::type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time T without volatile qualifier if any. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a0766e7c29d2a6e998450f62a2fc6aa07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0766e7c29d2a6e998450f62a2fc6aa07">&#9670;&nbsp;</a></span>is_constant_evaluated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr const bool lux::concepts::is_constant_evaluated </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if the expression is being evaluated as a constant expression. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="concepts_2is_constant_evaluated_8cpp-example.html#a0">concepts/is_constant_evaluated.cpp</a>.</dd>
+</dl>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a085566a22518aa31163a8257619ee5fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a085566a22518aa31163a8257619ee5fd">&#9670;&nbsp;</a></span>is_array</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::is_array = <a class="el" href="classlux_1_1concepts_1_1is__array__class.html">is_array_class</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T is an array type. </p>
+
+</div>
+</div>
 <a id="a9fe121794453134c7dcb5e977eda0f18"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9fe121794453134c7dcb5e977eda0f18">&#9670;&nbsp;</a></span>is_basic</h2>
 
@@ -144,6 +560,26 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="acd8792f02616cdd30612f05ed7b26ddb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd8792f02616cdd30612f05ed7b26ddb">&#9670;&nbsp;</a></span>is_const</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::is_const = <a class="el" href="classlux_1_1concepts_1_1is__const__class.html">is_const_class</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T has a const qualifier. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="concepts_2add_const_8cpp-example.html#a0">concepts/add_const.cpp</a>, and <a class="el" href="concepts_2remove_const_8cpp-example.html#a0">concepts/remove_const.cpp</a>.</dd>
+</dl>
+
+</div>
+</div>
 <a id="a55a4fe8dc9c976a815356fbb67e71788"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a55a4fe8dc9c976a815356fbb67e71788">&#9670;&nbsp;</a></span>is_floating_point</h2>
 
@@ -161,6 +597,222 @@ template&lt;class T &gt; </div>
 <p>Returns at compile-time whether or not T is a floating-point type <br  />
  <br  />
  Floating-point types are: f32 and f64. </p>
+
+</div>
+</div>
+<a id="a1cee71d1627c884c6951f9dc984baa44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cee71d1627c884c6951f9dc984baa44">&#9670;&nbsp;</a></span>is_integer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::is_integer = <a class="el" href="classlux_1_1concepts_1_1is__integer__class.html">is_integer_class</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T is an integer type <br  />
+ <br  />
+ Integer types are: bool, u8, s8, u16, s16, u32, s32, u64 and s64. </p>
+
+</div>
+</div>
+<a id="a3c2443ba6a23ae3b0392bcd5aa468089"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c2443ba6a23ae3b0392bcd5aa468089">&#9670;&nbsp;</a></span>is_lvalue_reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::is_lvalue_reference = <a class="el" href="classlux_1_1concepts_1_1is__lvalue__reference__class.html">is_lvalue_reference_class</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T is an lvalue reference type. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="concepts_2add_lvalue_reference_8cpp-example.html#a0">concepts/add_lvalue_reference.cpp</a>.</dd>
+</dl>
+
+</div>
+</div>
+<a id="a78f7fa72555a58419f343f5d9e82b965"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78f7fa72555a58419f343f5d9e82b965">&#9670;&nbsp;</a></span>is_pointer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::is_pointer = <a class="el" href="classlux_1_1concepts_1_1is__pointer__class.html">is_pointer_class</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T is a pointer type. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="concepts_2add_pointer_8cpp-example.html#a0">concepts/add_pointer.cpp</a>, and <a class="el" href="concepts_2remove_pointer_8cpp-example.html#a0">concepts/remove_pointer.cpp</a>.</dd>
+</dl>
+
+</div>
+</div>
+<a id="af384e6a55930c9807342a2cfcf7c0e31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af384e6a55930c9807342a2cfcf7c0e31">&#9670;&nbsp;</a></span>is_reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::is_reference = <a class="el" href="classlux_1_1concepts_1_1is__reference__class.html">is_reference_class</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T is a reference. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="concepts_2remove_references_8cpp-example.html#a0">concepts/remove_references.cpp</a>.</dd>
+</dl>
+
+</div>
+</div>
+<a id="a9665131c39a40b27f47c5e9d16e1e254"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9665131c39a40b27f47c5e9d16e1e254">&#9670;&nbsp;</a></span>is_rvalue_reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::is_rvalue_reference = <a class="el" href="classlux_1_1concepts_1_1is__rvalue__reference__class.html">is_rvalue_reference_class</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T is an rvalue reference type. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="concepts_2add_rvalue_reference_8cpp-example.html#a0">concepts/add_rvalue_reference.cpp</a>.</dd>
+</dl>
+
+</div>
+</div>
+<a id="a0e39955ae01848782888bd4b4cc377fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e39955ae01848782888bd4b4cc377fa">&#9670;&nbsp;</a></span>is_same</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::is_same = <a class="el" href="classlux_1_1concepts_1_1is__same__class.html">is_same_class</a>&lt;T, U&gt;::value</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U are the same type <br  />
+ <br  />
+ Remember that it doesn't check if T and U are derived/parent types. </p>
+
+</div>
+</div>
+<a id="ae7cf4e6cf0af6ba43689b2934ae72106"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7cf4e6cf0af6ba43689b2934ae72106">&#9670;&nbsp;</a></span>is_signed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::is_signed = <a class="el" href="classlux_1_1concepts_1_1is__signed__class.html">is_signed_class</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile time if T is a signed type <br  />
+ <br  />
+ Signed types are: s8, s16, s32, f32, s64 and f64. </p>
+
+</div>
+</div>
+<a id="a34378825cca0ea451d21614fb0354d43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34378825cca0ea451d21614fb0354d43">&#9670;&nbsp;</a></span>is_size</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , const u64 Size&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::is_size = sizeof(T) == Size</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if Size is equal to the size of T. </p>
+
+</div>
+</div>
+<a id="a5b3bf064d71c8cb9e1bda87bf4c7ccce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b3bf064d71c8cb9e1bda87bf4c7ccce">&#9670;&nbsp;</a></span>is_unsigned</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::is_unsigned = <a class="el" href="classlux_1_1concepts_1_1is__unsigned__class.html">is_unsigned_class</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T is unsigned type <br  />
+ <br  />
+ Unsigned types are: bool, u8, u16, u32 and u64. </p>
+
+</div>
+</div>
+<a id="a056912d11edbed52f28b1ec36a7bb610"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a056912d11edbed52f28b1ec36a7bb610">&#9670;&nbsp;</a></span>is_void</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::is_void = <a class="el" href="namespacelux_1_1concepts.html#a0e39955ae01848782888bd4b4cc377fa">is_same</a>&lt;<a class="el" href="namespacelux_1_1concepts.html#a3bc6cb2059b4e9a7fbddaaec65b13461">remove_const</a>&lt;<a class="el" href="namespacelux_1_1concepts.html#ace2dda2ec259a20b925470043e086624">remove_volatile</a>&lt;T&gt;&gt;, void&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T without const and volatile qualifiers is the same type as void. </p>
+
+</div>
+</div>
+<a id="a655e5ee587a89c4441f2cf8f5bef6fa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a655e5ee587a89c4441f2cf8f5bef6fa9">&#9670;&nbsp;</a></span>is_volatile</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::is_volatile = <a class="el" href="classlux_1_1concepts_1_1is__volatile__class.html">is_volatile_class</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T has volatile qualifier. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="concepts_2add_volatile_8cpp-example.html#a0">concepts/add_volatile.cpp</a>, and <a class="el" href="concepts_2remove_volatile_8cpp-example.html#a0">concepts/remove_volatile.cpp</a>.</dd>
+</dl>
 
 </div>
 </div>
