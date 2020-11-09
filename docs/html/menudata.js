@@ -31,12 +31,15 @@ var menudata={children:[
 {text:"a",url:"namespacemembers.html#index_a"},
 {text:"e",url:"namespacemembers.html#index_e"},
 {text:"f",url:"namespacemembers.html#index_f"},
+{text:"h",url:"namespacemembers.html#index_h"},
 {text:"i",url:"namespacemembers.html#index_i"},
 {text:"r",url:"namespacemembers.html#index_r"},
 {text:"s",url:"namespacemembers.html#index_s"},
 {text:"u",url:"namespacemembers.html#index_u"}]},
 {text:"Functions",url:"namespacemembers_func.html"},
-{text:"Variables",url:"namespacemembers_vars.html"},
+{text:"Variables",url:"namespacemembers_vars.html",children:[
+{text:"h",url:"namespacemembers_vars.html#index_h"},
+{text:"i",url:"namespacemembers_vars.html#index_i"}]},
 {text:"Typedefs",url:"namespacemembers_type.html"}]}]},
 {text:"Classes",url:"annotated.html",children:[
 {text:"Class List",url:"annotated.html"},

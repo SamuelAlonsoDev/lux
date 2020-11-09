@@ -255,6 +255,178 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:a5fc4dfeb71ab7c2fd4a20ca4723052e4"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:a5fc4dfeb71ab7c2fd4a20ca4723052e4"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a5fc4dfeb71ab7c2fd4a20ca4723052e4">has_addition</a> = requires(T t, U u) {t + u;}</td></tr>
+<tr class="memdesc:a5fc4dfeb71ab7c2fd4a20ca4723052e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share an addition 't + t' or 't + u' operator overloading.  <a href="namespacelux_1_1concepts.html#a5fc4dfeb71ab7c2fd4a20ca4723052e4">More...</a><br /></td></tr>
+<tr class="separator:a5fc4dfeb71ab7c2fd4a20ca4723052e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14219eb8124f72bf3d6d412ab788a9c2"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:a14219eb8124f72bf3d6d412ab788a9c2"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a14219eb8124f72bf3d6d412ab788a9c2">has_addition_assignment</a> = requires(T t, U u) {t += u;}</td></tr>
+<tr class="memdesc:a14219eb8124f72bf3d6d412ab788a9c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share an addition assignment 't += t' or 't += u' operator overloading.  <a href="namespacelux_1_1concepts.html#a14219eb8124f72bf3d6d412ab788a9c2">More...</a><br /></td></tr>
+<tr class="separator:a14219eb8124f72bf3d6d412ab788a9c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f1f017ebd8ef6d528263336f472d238"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a6f1f017ebd8ef6d528263336f472d238"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a6f1f017ebd8ef6d528263336f472d238">has_address_of</a> = requires(T t) {&amp;t;}</td></tr>
+<tr class="memdesc:a6f1f017ebd8ef6d528263336f472d238"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T type has an address of '&amp;t' operator overloading.  <a href="namespacelux_1_1concepts.html#a6f1f017ebd8ef6d528263336f472d238">More...</a><br /></td></tr>
+<tr class="separator:a6f1f017ebd8ef6d528263336f472d238"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7b6aae1fa848a26cb3fa62b3d3fef5d"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:ae7b6aae1fa848a26cb3fa62b3d3fef5d"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#ae7b6aae1fa848a26cb3fa62b3d3fef5d">has_and</a> = requires(T t, U u) {t &amp; u;}</td></tr>
+<tr class="memdesc:ae7b6aae1fa848a26cb3fa62b3d3fef5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a bitwise and 't &amp; t' or 't &amp; u' operator overloading.  <a href="namespacelux_1_1concepts.html#ae7b6aae1fa848a26cb3fa62b3d3fef5d">More...</a><br /></td></tr>
+<tr class="separator:ae7b6aae1fa848a26cb3fa62b3d3fef5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87c72902e91de2b6355a8f320ecd31ed"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:a87c72902e91de2b6355a8f320ecd31ed"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a87c72902e91de2b6355a8f320ecd31ed">has_and_assignment</a> = requires(T t, U u) {t &amp;= u;}</td></tr>
+<tr class="memdesc:a87c72902e91de2b6355a8f320ecd31ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a bitwise and assignment 't &amp;= t' or 't &amp;= u' operator overloading.  <a href="namespacelux_1_1concepts.html#a87c72902e91de2b6355a8f320ecd31ed">More...</a><br /></td></tr>
+<tr class="separator:a87c72902e91de2b6355a8f320ecd31ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea133ac9c7ece68857350cf35ae92d3b"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:aea133ac9c7ece68857350cf35ae92d3b"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#aea133ac9c7ece68857350cf35ae92d3b">has_assignment</a> = requires(T t, U u) {t = u;}</td></tr>
+<tr class="memdesc:aea133ac9c7ece68857350cf35ae92d3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share an assignment 't = t' or 't = u' operator overloading.  <a href="namespacelux_1_1concepts.html#aea133ac9c7ece68857350cf35ae92d3b">More...</a><br /></td></tr>
+<tr class="separator:aea133ac9c7ece68857350cf35ae92d3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a2294d52a13d0bf39f9d0d456bd3f2c"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:a7a2294d52a13d0bf39f9d0d456bd3f2c"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a7a2294d52a13d0bf39f9d0d456bd3f2c">has_bitshift_left</a> = requires(T t, U u) {t &lt;&lt; u;}</td></tr>
+<tr class="memdesc:a7a2294d52a13d0bf39f9d0d456bd3f2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a bitwise left shift 't &lt;&lt; t' or 't &lt;&lt; u' operator overloading.  <a href="namespacelux_1_1concepts.html#a7a2294d52a13d0bf39f9d0d456bd3f2c">More...</a><br /></td></tr>
+<tr class="separator:a7a2294d52a13d0bf39f9d0d456bd3f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ccf5e7e039f0c8bc22611b6c05d8c3a"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:a7ccf5e7e039f0c8bc22611b6c05d8c3a"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a7ccf5e7e039f0c8bc22611b6c05d8c3a">has_bitshift_left_assignment</a> = requires(T t, U u) {t &lt;&lt;= u;}</td></tr>
+<tr class="memdesc:a7ccf5e7e039f0c8bc22611b6c05d8c3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a bitwise shift left assignment 't &lt;&lt;= t' or 't &lt;&lt;= u' operator overloading.  <a href="namespacelux_1_1concepts.html#a7ccf5e7e039f0c8bc22611b6c05d8c3a">More...</a><br /></td></tr>
+<tr class="separator:a7ccf5e7e039f0c8bc22611b6c05d8c3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3ff48d7106ae9301cbaa6a285e4f411"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:af3ff48d7106ae9301cbaa6a285e4f411"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#af3ff48d7106ae9301cbaa6a285e4f411">has_bitshift_right</a> = requires(T t, U u) {t &gt;&gt; u;}</td></tr>
+<tr class="memdesc:af3ff48d7106ae9301cbaa6a285e4f411"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a bitwise shift right 't &gt;&gt; t' or 't &gt;&gt; u' operator overloading.  <a href="namespacelux_1_1concepts.html#af3ff48d7106ae9301cbaa6a285e4f411">More...</a><br /></td></tr>
+<tr class="separator:af3ff48d7106ae9301cbaa6a285e4f411"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5091d21c2a1bb4512a70bcd892aac19f"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:a5091d21c2a1bb4512a70bcd892aac19f"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a5091d21c2a1bb4512a70bcd892aac19f">has_bitshift_right_assignment</a> = requires(T t, U u) {t &gt;&gt;= u;}</td></tr>
+<tr class="memdesc:a5091d21c2a1bb4512a70bcd892aac19f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a bitwise shift right assignment 't &gt;&gt;= t' or 't &gt;&gt;= u' operator overloading.  <a href="namespacelux_1_1concepts.html#a5091d21c2a1bb4512a70bcd892aac19f">More...</a><br /></td></tr>
+<tr class="separator:a5091d21c2a1bb4512a70bcd892aac19f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada0e6eecb732070729f5c30335611a62"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:ada0e6eecb732070729f5c30335611a62"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#ada0e6eecb732070729f5c30335611a62">has_cast</a> = requires(T t) {static_cast&lt;U&gt;(t);}</td></tr>
+<tr class="memdesc:ada0e6eecb732070729f5c30335611a62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share an static cast 'static_cast&lt;U&gt;(t)' operator overloading.  <a href="namespacelux_1_1concepts.html#ada0e6eecb732070729f5c30335611a62">More...</a><br /></td></tr>
+<tr class="separator:ada0e6eecb732070729f5c30335611a62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b3a1d20afc508746d7eafa6d4687c41"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:a8b3a1d20afc508746d7eafa6d4687c41"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a8b3a1d20afc508746d7eafa6d4687c41">has_division</a> = requires(T t, U u) {t / u;}</td></tr>
+<tr class="memdesc:a8b3a1d20afc508746d7eafa6d4687c41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a division 't / t' or 't / u' operator overloading.  <a href="namespacelux_1_1concepts.html#a8b3a1d20afc508746d7eafa6d4687c41">More...</a><br /></td></tr>
+<tr class="separator:a8b3a1d20afc508746d7eafa6d4687c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f9cb659c59365f93ca4c770857a7907"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:a0f9cb659c59365f93ca4c770857a7907"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a0f9cb659c59365f93ca4c770857a7907">has_division_assignment</a> = requires(T t, U u) {t /= u;}</td></tr>
+<tr class="memdesc:a0f9cb659c59365f93ca4c770857a7907"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a division assignment 't /= t' or 't /= u' operator overloading.  <a href="namespacelux_1_1concepts.html#a0f9cb659c59365f93ca4c770857a7907">More...</a><br /></td></tr>
+<tr class="separator:a0f9cb659c59365f93ca4c770857a7907"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa50fedcfb22105eed03a0b8409986e4e"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:aa50fedcfb22105eed03a0b8409986e4e"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#aa50fedcfb22105eed03a0b8409986e4e">has_equal</a> = requires(T t, U u) {t == u;}</td></tr>
+<tr class="memdesc:aa50fedcfb22105eed03a0b8409986e4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share an equal 't == t' or 't == u' operator overloading.  <a href="namespacelux_1_1concepts.html#aa50fedcfb22105eed03a0b8409986e4e">More...</a><br /></td></tr>
+<tr class="separator:aa50fedcfb22105eed03a0b8409986e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d82b2d644784f4fade6878f69024f6a"><td class="memTemplParams" colspan="2">template&lt;class T , class... U&gt; </td></tr>
+<tr class="memitem:a7d82b2d644784f4fade6878f69024f6a"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a7d82b2d644784f4fade6878f69024f6a">has_function_call</a> = requires(T t, U... u) {t(u...);}</td></tr>
+<tr class="memdesc:a7d82b2d644784f4fade6878f69024f6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T type has a function call with the args specified at U 't(u...)' operator overloading.  <a href="namespacelux_1_1concepts.html#a7d82b2d644784f4fade6878f69024f6a">More...</a><br /></td></tr>
+<tr class="separator:a7d82b2d644784f4fade6878f69024f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a890a747424527622fb431acf0b97156d"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:a890a747424527622fb431acf0b97156d"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a890a747424527622fb431acf0b97156d">has_greater</a> = requires(T t, U u) {t &gt; u;}</td></tr>
+<tr class="memdesc:a890a747424527622fb431acf0b97156d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a greater 't &gt; t' or 't &gt; u' operator overloading.  <a href="namespacelux_1_1concepts.html#a890a747424527622fb431acf0b97156d">More...</a><br /></td></tr>
+<tr class="separator:a890a747424527622fb431acf0b97156d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b07a4a7dd50a0f0ff0c11343819f931"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:a4b07a4a7dd50a0f0ff0c11343819f931"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a4b07a4a7dd50a0f0ff0c11343819f931">has_greater_equal</a> = requires(T t, U u) {t &gt;= u;}</td></tr>
+<tr class="memdesc:a4b07a4a7dd50a0f0ff0c11343819f931"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a greater equal 't &gt;= t' or 't &gt;= u' operator overloading.  <a href="namespacelux_1_1concepts.html#a4b07a4a7dd50a0f0ff0c11343819f931">More...</a><br /></td></tr>
+<tr class="separator:a4b07a4a7dd50a0f0ff0c11343819f931"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca988b531e2d21a2a5e72c1fe1804ec1"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:aca988b531e2d21a2a5e72c1fe1804ec1"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#aca988b531e2d21a2a5e72c1fe1804ec1">has_indirection</a> = requires(T t) {*t;}</td></tr>
+<tr class="memdesc:aca988b531e2d21a2a5e72c1fe1804ec1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T type has an indirection '*t' operator overloading.  <a href="namespacelux_1_1concepts.html#aca988b531e2d21a2a5e72c1fe1804ec1">More...</a><br /></td></tr>
+<tr class="separator:aca988b531e2d21a2a5e72c1fe1804ec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3106731bbaf6770a62ed720bf18e325"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:ae3106731bbaf6770a62ed720bf18e325"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#ae3106731bbaf6770a62ed720bf18e325">has_less</a> = requires(T t, U u) {t &lt; u;}</td></tr>
+<tr class="memdesc:ae3106731bbaf6770a62ed720bf18e325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a less 't &lt; t' or 't &lt; u' operator overloading.  <a href="namespacelux_1_1concepts.html#ae3106731bbaf6770a62ed720bf18e325">More...</a><br /></td></tr>
+<tr class="separator:ae3106731bbaf6770a62ed720bf18e325"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1316df69ec40b4b4cff64eecdff9877"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:ac1316df69ec40b4b4cff64eecdff9877"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#ac1316df69ec40b4b4cff64eecdff9877">has_less_equal</a> = requires(T t, U u) {t &lt;= u;}</td></tr>
+<tr class="memdesc:ac1316df69ec40b4b4cff64eecdff9877"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a less equal 't &lt;= t' or 't &lt;= u' operator overloading.  <a href="namespacelux_1_1concepts.html#ac1316df69ec40b4b4cff64eecdff9877">More...</a><br /></td></tr>
+<tr class="separator:ac1316df69ec40b4b4cff64eecdff9877"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd257afcf9e057c3c2a704e82495cc22"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:afd257afcf9e057c3c2a704e82495cc22"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#afd257afcf9e057c3c2a704e82495cc22">has_logical_and</a> = requires(T t, U u) {t &amp;&amp; u;}</td></tr>
+<tr class="memdesc:afd257afcf9e057c3c2a704e82495cc22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a logical and 't &amp;&amp; t' or 't &amp;&amp; u' operator overloading.  <a href="namespacelux_1_1concepts.html#afd257afcf9e057c3c2a704e82495cc22">More...</a><br /></td></tr>
+<tr class="separator:afd257afcf9e057c3c2a704e82495cc22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75aaae58518d2c84f03c6e9fa19b7030"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a75aaae58518d2c84f03c6e9fa19b7030"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a75aaae58518d2c84f03c6e9fa19b7030">has_logical_not</a> = requires(T t) {!t;}</td></tr>
+<tr class="memdesc:a75aaae58518d2c84f03c6e9fa19b7030"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T type has a logical not '!t' operator overloading.  <a href="namespacelux_1_1concepts.html#a75aaae58518d2c84f03c6e9fa19b7030">More...</a><br /></td></tr>
+<tr class="separator:a75aaae58518d2c84f03c6e9fa19b7030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a464bfd057751ec0fc1780bc2abfcae33"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:a464bfd057751ec0fc1780bc2abfcae33"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a464bfd057751ec0fc1780bc2abfcae33">has_logical_or</a> = requires(T t, U u) {t || u;}</td></tr>
+<tr class="memdesc:a464bfd057751ec0fc1780bc2abfcae33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a logical or 't || t' or 't || u' operator overloading.  <a href="namespacelux_1_1concepts.html#a464bfd057751ec0fc1780bc2abfcae33">More...</a><br /></td></tr>
+<tr class="separator:a464bfd057751ec0fc1780bc2abfcae33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23a292e3b0f8d2fc7757447efa032d84"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:a23a292e3b0f8d2fc7757447efa032d84"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a23a292e3b0f8d2fc7757447efa032d84">has_modulo</a> = requires(T t, U u) {t % u;}</td></tr>
+<tr class="memdesc:a23a292e3b0f8d2fc7757447efa032d84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a modulo 't % t' or 't % u' operator overloading.  <a href="namespacelux_1_1concepts.html#a23a292e3b0f8d2fc7757447efa032d84">More...</a><br /></td></tr>
+<tr class="separator:a23a292e3b0f8d2fc7757447efa032d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65a33fa22ed5fec1b15dfd1b85b4fb70"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:a65a33fa22ed5fec1b15dfd1b85b4fb70"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a65a33fa22ed5fec1b15dfd1b85b4fb70">has_modulo_assignment</a> = requires(T t, U u) {t %= u;}</td></tr>
+<tr class="memdesc:a65a33fa22ed5fec1b15dfd1b85b4fb70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a modulo assignment 't %= t' or 't %= u' operator overloading.  <a href="namespacelux_1_1concepts.html#a65a33fa22ed5fec1b15dfd1b85b4fb70">More...</a><br /></td></tr>
+<tr class="separator:a65a33fa22ed5fec1b15dfd1b85b4fb70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee6ea879184d5754c2aadf71df838687"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:aee6ea879184d5754c2aadf71df838687"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#aee6ea879184d5754c2aadf71df838687">has_multiplication</a> = requires(T t, U u) {t * u;}</td></tr>
+<tr class="memdesc:aee6ea879184d5754c2aadf71df838687"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a multiplication 't * t' or 't * u' operator overloading.  <a href="namespacelux_1_1concepts.html#aee6ea879184d5754c2aadf71df838687">More...</a><br /></td></tr>
+<tr class="separator:aee6ea879184d5754c2aadf71df838687"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abae4342c3a1a9752009ee63c985c4b7d"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:abae4342c3a1a9752009ee63c985c4b7d"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#abae4342c3a1a9752009ee63c985c4b7d">has_multiplication_assignment</a> = requires(T t, U u) {t *= u;}</td></tr>
+<tr class="memdesc:abae4342c3a1a9752009ee63c985c4b7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a multiplication assignment 't *= t' or 't *= u' operator overloading.  <a href="namespacelux_1_1concepts.html#abae4342c3a1a9752009ee63c985c4b7d">More...</a><br /></td></tr>
+<tr class="separator:abae4342c3a1a9752009ee63c985c4b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97b6ec2e3b546773b79042d3ab33313f"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a97b6ec2e3b546773b79042d3ab33313f"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a97b6ec2e3b546773b79042d3ab33313f">has_not</a> = requires(T t) {~t;}</td></tr>
+<tr class="memdesc:a97b6ec2e3b546773b79042d3ab33313f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T type has a bitwise not '~t' operator overloading.  <a href="namespacelux_1_1concepts.html#a97b6ec2e3b546773b79042d3ab33313f">More...</a><br /></td></tr>
+<tr class="separator:a97b6ec2e3b546773b79042d3ab33313f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafdd10bbec5c2a08f90092bb3927a295"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:aafdd10bbec5c2a08f90092bb3927a295"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#aafdd10bbec5c2a08f90092bb3927a295">has_not_equal</a> = requires(T t, U u) {t != u;}</td></tr>
+<tr class="memdesc:aafdd10bbec5c2a08f90092bb3927a295"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a not equal 't != t' or 't != u' operator overloading.  <a href="namespacelux_1_1concepts.html#aafdd10bbec5c2a08f90092bb3927a295">More...</a><br /></td></tr>
+<tr class="separator:aafdd10bbec5c2a08f90092bb3927a295"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3ef90d3fcef97f5e7787703e27e07ed"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:af3ef90d3fcef97f5e7787703e27e07ed"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#af3ef90d3fcef97f5e7787703e27e07ed">has_or</a> = requires(T t, U u) {t | u;}</td></tr>
+<tr class="memdesc:af3ef90d3fcef97f5e7787703e27e07ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a bitwise or 't | t' or 't | u' operator overloading.  <a href="namespacelux_1_1concepts.html#af3ef90d3fcef97f5e7787703e27e07ed">More...</a><br /></td></tr>
+<tr class="separator:af3ef90d3fcef97f5e7787703e27e07ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ea7e5c47c93f2939239c4d59104e56a"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:a3ea7e5c47c93f2939239c4d59104e56a"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a3ea7e5c47c93f2939239c4d59104e56a">has_or_assignment</a> = requires(T t, U u) {t |= u;}</td></tr>
+<tr class="memdesc:a3ea7e5c47c93f2939239c4d59104e56a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a bitwise or assignment 't |= t' or 't |= u' operator overloading.  <a href="namespacelux_1_1concepts.html#a3ea7e5c47c93f2939239c4d59104e56a">More...</a><br /></td></tr>
+<tr class="separator:a3ea7e5c47c93f2939239c4d59104e56a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02cdd2d9ac8fd910827d4ceaa7ba4fb3"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a02cdd2d9ac8fd910827d4ceaa7ba4fb3"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a02cdd2d9ac8fd910827d4ceaa7ba4fb3">has_post_decrement</a> = requires(T t) {t--;}</td></tr>
+<tr class="memdesc:a02cdd2d9ac8fd910827d4ceaa7ba4fb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T type has a post-decrement 't&ndash;' operator overloading.  <a href="namespacelux_1_1concepts.html#a02cdd2d9ac8fd910827d4ceaa7ba4fb3">More...</a><br /></td></tr>
+<tr class="separator:a02cdd2d9ac8fd910827d4ceaa7ba4fb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b72e1084e9c41437a20995273b64dc9"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a9b72e1084e9c41437a20995273b64dc9"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a9b72e1084e9c41437a20995273b64dc9">has_post_increment</a> = requires(T t) {t++;}</td></tr>
+<tr class="memdesc:a9b72e1084e9c41437a20995273b64dc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T type has a post-increment 't++' operator overloading.  <a href="namespacelux_1_1concepts.html#a9b72e1084e9c41437a20995273b64dc9">More...</a><br /></td></tr>
+<tr class="separator:a9b72e1084e9c41437a20995273b64dc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4840d03b82c9b944d336b5eb169d15b"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:aa4840d03b82c9b944d336b5eb169d15b"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#aa4840d03b82c9b944d336b5eb169d15b">has_pre_decrement</a> = requires(T t) {--t;}</td></tr>
+<tr class="memdesc:aa4840d03b82c9b944d336b5eb169d15b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T has a pre-decrement '&ndash;t' operator overloading.  <a href="namespacelux_1_1concepts.html#aa4840d03b82c9b944d336b5eb169d15b">More...</a><br /></td></tr>
+<tr class="separator:aa4840d03b82c9b944d336b5eb169d15b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a359c3b1e09c433f68624141cdda1f298"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a359c3b1e09c433f68624141cdda1f298"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a359c3b1e09c433f68624141cdda1f298">has_pre_increment</a> = requires(T t) {++t;}</td></tr>
+<tr class="memdesc:a359c3b1e09c433f68624141cdda1f298"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T has a pre-increment '++t' operator overloading.  <a href="namespacelux_1_1concepts.html#a359c3b1e09c433f68624141cdda1f298">More...</a><br /></td></tr>
+<tr class="separator:a359c3b1e09c433f68624141cdda1f298"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a600e7fdfe4a96a2da435ee930a384726"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:a600e7fdfe4a96a2da435ee930a384726"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a600e7fdfe4a96a2da435ee930a384726">has_spaceship</a> = requires(T t, U u) {t &lt;=&gt; u;}</td></tr>
+<tr class="memdesc:a600e7fdfe4a96a2da435ee930a384726"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share an spaceship 't &lt;=&gt; t' or 't &lt;=&gt; u' operator overloading.  <a href="namespacelux_1_1concepts.html#a600e7fdfe4a96a2da435ee930a384726">More...</a><br /></td></tr>
+<tr class="separator:a600e7fdfe4a96a2da435ee930a384726"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac861485c4febc84b9c88ef0316f647a2"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ac861485c4febc84b9c88ef0316f647a2"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#ac861485c4febc84b9c88ef0316f647a2">has_subscript</a> = requires(T t) {t[0u];}</td></tr>
+<tr class="memdesc:ac861485c4febc84b9c88ef0316f647a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T type has a subscript 't[0u]' operator overloading.  <a href="namespacelux_1_1concepts.html#ac861485c4febc84b9c88ef0316f647a2">More...</a><br /></td></tr>
+<tr class="separator:ac861485c4febc84b9c88ef0316f647a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9562043c31c7aa0a8c86307fce649e3a"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:a9562043c31c7aa0a8c86307fce649e3a"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a9562043c31c7aa0a8c86307fce649e3a">has_subtraction</a> = requires(T t, U u) {t - u;}</td></tr>
+<tr class="memdesc:a9562043c31c7aa0a8c86307fce649e3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a subtraction 't - t' or 't - u' operator overloading.  <a href="namespacelux_1_1concepts.html#a9562043c31c7aa0a8c86307fce649e3a">More...</a><br /></td></tr>
+<tr class="separator:a9562043c31c7aa0a8c86307fce649e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae289862b28e47992b391b8bfe3d90fb4"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:ae289862b28e47992b391b8bfe3d90fb4"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#ae289862b28e47992b391b8bfe3d90fb4">has_subtraction_assignment</a> = requires(T t, U u) {t -= u;}</td></tr>
+<tr class="memdesc:ae289862b28e47992b391b8bfe3d90fb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a subtraction assignment 't -= t' or 't -= u' operator overloading.  <a href="namespacelux_1_1concepts.html#ae289862b28e47992b391b8bfe3d90fb4">More...</a><br /></td></tr>
+<tr class="separator:ae289862b28e47992b391b8bfe3d90fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a244b470ae7281dc1befada80a359c509"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a244b470ae7281dc1befada80a359c509"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a244b470ae7281dc1befada80a359c509">has_unary_minus</a> = requires(T t) {-t;}</td></tr>
+<tr class="memdesc:a244b470ae7281dc1befada80a359c509"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T type has a unary minus '-t' operator overloading.  <a href="namespacelux_1_1concepts.html#a244b470ae7281dc1befada80a359c509">More...</a><br /></td></tr>
+<tr class="separator:a244b470ae7281dc1befada80a359c509"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a903f53c86df13f1afc961ad35ba6e601"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a903f53c86df13f1afc961ad35ba6e601"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a903f53c86df13f1afc961ad35ba6e601">has_unary_plus</a> = requires(T t) {+t;}</td></tr>
+<tr class="memdesc:a903f53c86df13f1afc961ad35ba6e601"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T type has a unary plus '+t' operator overloading.  <a href="namespacelux_1_1concepts.html#a903f53c86df13f1afc961ad35ba6e601">More...</a><br /></td></tr>
+<tr class="separator:a903f53c86df13f1afc961ad35ba6e601"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae057b9f2b79a0a56ccb640c70401bbd0"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:ae057b9f2b79a0a56ccb640c70401bbd0"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#ae057b9f2b79a0a56ccb640c70401bbd0">has_xor</a> = requires(T t, U u) {t ^ u;}</td></tr>
+<tr class="memdesc:ae057b9f2b79a0a56ccb640c70401bbd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a bitwise xor 't ^ t' or 't ^ u' operator overloading.  <a href="namespacelux_1_1concepts.html#ae057b9f2b79a0a56ccb640c70401bbd0">More...</a><br /></td></tr>
+<tr class="separator:ae057b9f2b79a0a56ccb640c70401bbd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c35f6636c99553e5a1160831e26c629"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:a3c35f6636c99553e5a1160831e26c629"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a3c35f6636c99553e5a1160831e26c629">has_xor_assignment</a> = requires(T t, U u) {t ^= u;}</td></tr>
+<tr class="memdesc:a3c35f6636c99553e5a1160831e26c629"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T and U types share a bitwise xor assignment 't ^= t' or 't ^= u' operator overloading.  <a href="namespacelux_1_1concepts.html#a3c35f6636c99553e5a1160831e26c629">More...</a><br /></td></tr>
+<tr class="separator:a3c35f6636c99553e5a1160831e26c629"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a085566a22518aa31163a8257619ee5fd"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a085566a22518aa31163a8257619ee5fd"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a085566a22518aa31163a8257619ee5fd">is_array</a> = <a class="el" href="classlux_1_1concepts_1_1is__array__class.html">is_array_class</a>&lt;T&gt;::value</td></tr>
 <tr class="memdesc:a085566a22518aa31163a8257619ee5fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T is an array type.  <a href="namespacelux_1_1concepts.html#a085566a22518aa31163a8257619ee5fd">More...</a><br /></td></tr>
@@ -265,10 +437,22 @@ Variables</h2></td></tr>
  <br  />
  Basic types are: bool, u8, s8, u16, s16, u32, s32, f32, u64, s64 and f64.  <a href="namespacelux_1_1concepts.html#a9fe121794453134c7dcb5e977eda0f18">More...</a><br /></td></tr>
 <tr class="separator:a9fe121794453134c7dcb5e977eda0f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1947fb858c79421f62b8752f334039a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ac1947fb858c79421f62b8752f334039a"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#ac1947fb858c79421f62b8752f334039a">is_class</a> = __is_class(T)</td></tr>
+<tr class="memdesc:ac1947fb858c79421f62b8752f334039a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T is a class type <br  />
+ <br  />
+ Remember that class types are: incomplete class, class and struct.  <a href="namespacelux_1_1concepts.html#ac1947fb858c79421f62b8752f334039a">More...</a><br /></td></tr>
+<tr class="separator:ac1947fb858c79421f62b8752f334039a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd8792f02616cdd30612f05ed7b26ddb"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:acd8792f02616cdd30612f05ed7b26ddb"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#acd8792f02616cdd30612f05ed7b26ddb">is_const</a> = <a class="el" href="classlux_1_1concepts_1_1is__const__class.html">is_const_class</a>&lt;T&gt;::value</td></tr>
 <tr class="memdesc:acd8792f02616cdd30612f05ed7b26ddb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T has a const qualifier.  <a href="namespacelux_1_1concepts.html#acd8792f02616cdd30612f05ed7b26ddb">More...</a><br /></td></tr>
 <tr class="separator:acd8792f02616cdd30612f05ed7b26ddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae15a4819df0eba4814472736c7880a01"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ae15a4819df0eba4814472736c7880a01"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#ae15a4819df0eba4814472736c7880a01">is_enum</a> = __is_enum(T)</td></tr>
+<tr class="memdesc:ae15a4819df0eba4814472736c7880a01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T is an enumeration type <br  />
+ <br  />
+ Remember that enumeration types are: enum and enum class.  <a href="namespacelux_1_1concepts.html#ae15a4819df0eba4814472736c7880a01">More...</a><br /></td></tr>
+<tr class="separator:ae15a4819df0eba4814472736c7880a01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55a4fe8dc9c976a815356fbb67e71788"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a55a4fe8dc9c976a815356fbb67e71788"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a55a4fe8dc9c976a815356fbb67e71788">is_floating_point</a> = <a class="el" href="classlux_1_1concepts_1_1is__floating__point__class.html">is_floating_point_class</a>&lt;T&gt;::value</td></tr>
 <tr class="memdesc:a55a4fe8dc9c976a815356fbb67e71788"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time whether or not T is a floating-point type <br  />
@@ -313,6 +497,10 @@ Variables</h2></td></tr>
 <tr class="memitem:a34378825cca0ea451d21614fb0354d43"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a34378825cca0ea451d21614fb0354d43">is_size</a> = sizeof(T) == Size</td></tr>
 <tr class="memdesc:a34378825cca0ea451d21614fb0354d43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if Size is equal to the size of T.  <a href="namespacelux_1_1concepts.html#a34378825cca0ea451d21614fb0354d43">More...</a><br /></td></tr>
 <tr class="separator:a34378825cca0ea451d21614fb0354d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afed9ea1c1876c6880e3e9b93cde6e063"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:afed9ea1c1876c6880e3e9b93cde6e063"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#afed9ea1c1876c6880e3e9b93cde6e063">is_union</a> = __is_union(T)</td></tr>
+<tr class="memdesc:afed9ea1c1876c6880e3e9b93cde6e063"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T is a union type.  <a href="namespacelux_1_1concepts.html#afed9ea1c1876c6880e3e9b93cde6e063">More...</a><br /></td></tr>
+<tr class="separator:afed9ea1c1876c6880e3e9b93cde6e063"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b3bf064d71c8cb9e1bda87bf4c7ccce"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a5b3bf064d71c8cb9e1bda87bf4c7ccce"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelux_1_1concepts.html#a5b3bf064d71c8cb9e1bda87bf4c7ccce">is_unsigned</a> = <a class="el" href="classlux_1_1concepts_1_1is__unsigned__class.html">is_unsigned_class</a>&lt;T&gt;::value</td></tr>
 <tr class="memdesc:a5b3bf064d71c8cb9e1bda87bf4c7ccce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns at compile-time if T is unsigned type <br  />
@@ -522,6 +710,780 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a5fc4dfeb71ab7c2fd4a20ca4723052e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fc4dfeb71ab7c2fd4a20ca4723052e4">&#9670;&nbsp;</a></span>has_addition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_addition = requires(T t, U u) {t + u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share an addition 't + t' or 't + u' operator overloading. </p>
+
+</div>
+</div>
+<a id="a14219eb8124f72bf3d6d412ab788a9c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14219eb8124f72bf3d6d412ab788a9c2">&#9670;&nbsp;</a></span>has_addition_assignment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_addition_assignment = requires(T t, U u) {t += u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share an addition assignment 't += t' or 't += u' operator overloading. </p>
+
+</div>
+</div>
+<a id="a6f1f017ebd8ef6d528263336f472d238"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f1f017ebd8ef6d528263336f472d238">&#9670;&nbsp;</a></span>has_address_of</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_address_of = requires(T t) {&amp;t;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T type has an address of '&amp;t' operator overloading. </p>
+
+</div>
+</div>
+<a id="ae7b6aae1fa848a26cb3fa62b3d3fef5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7b6aae1fa848a26cb3fa62b3d3fef5d">&#9670;&nbsp;</a></span>has_and</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_and = requires(T t, U u) {t &amp; u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a bitwise and 't &amp; t' or 't &amp; u' operator overloading. </p>
+
+</div>
+</div>
+<a id="a87c72902e91de2b6355a8f320ecd31ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87c72902e91de2b6355a8f320ecd31ed">&#9670;&nbsp;</a></span>has_and_assignment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_and_assignment = requires(T t, U u) {t &amp;= u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a bitwise and assignment 't &amp;= t' or 't &amp;= u' operator overloading. </p>
+
+</div>
+</div>
+<a id="aea133ac9c7ece68857350cf35ae92d3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea133ac9c7ece68857350cf35ae92d3b">&#9670;&nbsp;</a></span>has_assignment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_assignment = requires(T t, U u) {t = u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share an assignment 't = t' or 't = u' operator overloading. </p>
+
+</div>
+</div>
+<a id="a7a2294d52a13d0bf39f9d0d456bd3f2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a2294d52a13d0bf39f9d0d456bd3f2c">&#9670;&nbsp;</a></span>has_bitshift_left</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_bitshift_left = requires(T t, U u) {t &lt;&lt; u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a bitwise left shift 't &lt;&lt; t' or 't &lt;&lt; u' operator overloading. </p>
+
+</div>
+</div>
+<a id="a7ccf5e7e039f0c8bc22611b6c05d8c3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ccf5e7e039f0c8bc22611b6c05d8c3a">&#9670;&nbsp;</a></span>has_bitshift_left_assignment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_bitshift_left_assignment = requires(T t, U u) {t &lt;&lt;= u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a bitwise shift left assignment 't &lt;&lt;= t' or 't &lt;&lt;= u' operator overloading. </p>
+
+</div>
+</div>
+<a id="af3ff48d7106ae9301cbaa6a285e4f411"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3ff48d7106ae9301cbaa6a285e4f411">&#9670;&nbsp;</a></span>has_bitshift_right</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_bitshift_right = requires(T t, U u) {t &gt;&gt; u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a bitwise shift right 't &gt;&gt; t' or 't &gt;&gt; u' operator overloading. </p>
+
+</div>
+</div>
+<a id="a5091d21c2a1bb4512a70bcd892aac19f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5091d21c2a1bb4512a70bcd892aac19f">&#9670;&nbsp;</a></span>has_bitshift_right_assignment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_bitshift_right_assignment = requires(T t, U u) {t &gt;&gt;= u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a bitwise shift right assignment 't &gt;&gt;= t' or 't &gt;&gt;= u' operator overloading. </p>
+
+</div>
+</div>
+<a id="ada0e6eecb732070729f5c30335611a62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada0e6eecb732070729f5c30335611a62">&#9670;&nbsp;</a></span>has_cast</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_cast = requires(T t) {static_cast&lt;U&gt;(t);}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share an static cast 'static_cast&lt;U&gt;(t)' operator overloading. </p>
+
+</div>
+</div>
+<a id="a8b3a1d20afc508746d7eafa6d4687c41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b3a1d20afc508746d7eafa6d4687c41">&#9670;&nbsp;</a></span>has_division</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_division = requires(T t, U u) {t / u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a division 't / t' or 't / u' operator overloading. </p>
+
+</div>
+</div>
+<a id="a0f9cb659c59365f93ca4c770857a7907"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f9cb659c59365f93ca4c770857a7907">&#9670;&nbsp;</a></span>has_division_assignment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_division_assignment = requires(T t, U u) {t /= u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a division assignment 't /= t' or 't /= u' operator overloading. </p>
+
+</div>
+</div>
+<a id="aa50fedcfb22105eed03a0b8409986e4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa50fedcfb22105eed03a0b8409986e4e">&#9670;&nbsp;</a></span>has_equal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_equal = requires(T t, U u) {t == u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share an equal 't == t' or 't == u' operator overloading. </p>
+
+</div>
+</div>
+<a id="a7d82b2d644784f4fade6878f69024f6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d82b2d644784f4fade6878f69024f6a">&#9670;&nbsp;</a></span>has_function_call</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class... U&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_function_call = requires(T t, U... u) {t(u...);}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T type has a function call with the args specified at U 't(u...)' operator overloading. </p>
+
+</div>
+</div>
+<a id="a890a747424527622fb431acf0b97156d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a890a747424527622fb431acf0b97156d">&#9670;&nbsp;</a></span>has_greater</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_greater = requires(T t, U u) {t &gt; u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a greater 't &gt; t' or 't &gt; u' operator overloading. </p>
+
+</div>
+</div>
+<a id="a4b07a4a7dd50a0f0ff0c11343819f931"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b07a4a7dd50a0f0ff0c11343819f931">&#9670;&nbsp;</a></span>has_greater_equal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_greater_equal = requires(T t, U u) {t &gt;= u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a greater equal 't &gt;= t' or 't &gt;= u' operator overloading. </p>
+
+</div>
+</div>
+<a id="aca988b531e2d21a2a5e72c1fe1804ec1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca988b531e2d21a2a5e72c1fe1804ec1">&#9670;&nbsp;</a></span>has_indirection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_indirection = requires(T t) {*t;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T type has an indirection '*t' operator overloading. </p>
+
+</div>
+</div>
+<a id="ae3106731bbaf6770a62ed720bf18e325"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3106731bbaf6770a62ed720bf18e325">&#9670;&nbsp;</a></span>has_less</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_less = requires(T t, U u) {t &lt; u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a less 't &lt; t' or 't &lt; u' operator overloading. </p>
+
+</div>
+</div>
+<a id="ac1316df69ec40b4b4cff64eecdff9877"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1316df69ec40b4b4cff64eecdff9877">&#9670;&nbsp;</a></span>has_less_equal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_less_equal = requires(T t, U u) {t &lt;= u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a less equal 't &lt;= t' or 't &lt;= u' operator overloading. </p>
+
+</div>
+</div>
+<a id="afd257afcf9e057c3c2a704e82495cc22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd257afcf9e057c3c2a704e82495cc22">&#9670;&nbsp;</a></span>has_logical_and</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_logical_and = requires(T t, U u) {t &amp;&amp; u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a logical and 't &amp;&amp; t' or 't &amp;&amp; u' operator overloading. </p>
+
+</div>
+</div>
+<a id="a75aaae58518d2c84f03c6e9fa19b7030"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75aaae58518d2c84f03c6e9fa19b7030">&#9670;&nbsp;</a></span>has_logical_not</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_logical_not = requires(T t) {!t;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T type has a logical not '!t' operator overloading. </p>
+
+</div>
+</div>
+<a id="a464bfd057751ec0fc1780bc2abfcae33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a464bfd057751ec0fc1780bc2abfcae33">&#9670;&nbsp;</a></span>has_logical_or</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_logical_or = requires(T t, U u) {t || u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a logical or 't || t' or 't || u' operator overloading. </p>
+
+</div>
+</div>
+<a id="a23a292e3b0f8d2fc7757447efa032d84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23a292e3b0f8d2fc7757447efa032d84">&#9670;&nbsp;</a></span>has_modulo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_modulo = requires(T t, U u) {t % u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a modulo 't % t' or 't % u' operator overloading. </p>
+
+</div>
+</div>
+<a id="a65a33fa22ed5fec1b15dfd1b85b4fb70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65a33fa22ed5fec1b15dfd1b85b4fb70">&#9670;&nbsp;</a></span>has_modulo_assignment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_modulo_assignment = requires(T t, U u) {t %= u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a modulo assignment 't %= t' or 't %= u' operator overloading. </p>
+
+</div>
+</div>
+<a id="aee6ea879184d5754c2aadf71df838687"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee6ea879184d5754c2aadf71df838687">&#9670;&nbsp;</a></span>has_multiplication</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_multiplication = requires(T t, U u) {t * u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a multiplication 't * t' or 't * u' operator overloading. </p>
+
+</div>
+</div>
+<a id="abae4342c3a1a9752009ee63c985c4b7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abae4342c3a1a9752009ee63c985c4b7d">&#9670;&nbsp;</a></span>has_multiplication_assignment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_multiplication_assignment = requires(T t, U u) {t *= u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a multiplication assignment 't *= t' or 't *= u' operator overloading. </p>
+
+</div>
+</div>
+<a id="a97b6ec2e3b546773b79042d3ab33313f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97b6ec2e3b546773b79042d3ab33313f">&#9670;&nbsp;</a></span>has_not</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_not = requires(T t) {~t;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T type has a bitwise not '~t' operator overloading. </p>
+
+</div>
+</div>
+<a id="aafdd10bbec5c2a08f90092bb3927a295"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafdd10bbec5c2a08f90092bb3927a295">&#9670;&nbsp;</a></span>has_not_equal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_not_equal = requires(T t, U u) {t != u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a not equal 't != t' or 't != u' operator overloading. </p>
+
+</div>
+</div>
+<a id="af3ef90d3fcef97f5e7787703e27e07ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3ef90d3fcef97f5e7787703e27e07ed">&#9670;&nbsp;</a></span>has_or</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_or = requires(T t, U u) {t | u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a bitwise or 't | t' or 't | u' operator overloading. </p>
+
+</div>
+</div>
+<a id="a3ea7e5c47c93f2939239c4d59104e56a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ea7e5c47c93f2939239c4d59104e56a">&#9670;&nbsp;</a></span>has_or_assignment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_or_assignment = requires(T t, U u) {t |= u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a bitwise or assignment 't |= t' or 't |= u' operator overloading. </p>
+
+</div>
+</div>
+<a id="a02cdd2d9ac8fd910827d4ceaa7ba4fb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02cdd2d9ac8fd910827d4ceaa7ba4fb3">&#9670;&nbsp;</a></span>has_post_decrement</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_post_decrement = requires(T t) {t--;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T type has a post-decrement 't&ndash;' operator overloading. </p>
+
+</div>
+</div>
+<a id="a9b72e1084e9c41437a20995273b64dc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b72e1084e9c41437a20995273b64dc9">&#9670;&nbsp;</a></span>has_post_increment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_post_increment = requires(T t) {t++;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T type has a post-increment 't++' operator overloading. </p>
+
+</div>
+</div>
+<a id="aa4840d03b82c9b944d336b5eb169d15b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4840d03b82c9b944d336b5eb169d15b">&#9670;&nbsp;</a></span>has_pre_decrement</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_pre_decrement = requires(T t) {--t;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T has a pre-decrement '&ndash;t' operator overloading. </p>
+
+</div>
+</div>
+<a id="a359c3b1e09c433f68624141cdda1f298"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a359c3b1e09c433f68624141cdda1f298">&#9670;&nbsp;</a></span>has_pre_increment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_pre_increment = requires(T t) {++t;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T has a pre-increment '++t' operator overloading. </p>
+
+</div>
+</div>
+<a id="a600e7fdfe4a96a2da435ee930a384726"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a600e7fdfe4a96a2da435ee930a384726">&#9670;&nbsp;</a></span>has_spaceship</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_spaceship = requires(T t, U u) {t &lt;=&gt; u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share an spaceship 't &lt;=&gt; t' or 't &lt;=&gt; u' operator overloading. </p>
+
+</div>
+</div>
+<a id="ac861485c4febc84b9c88ef0316f647a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac861485c4febc84b9c88ef0316f647a2">&#9670;&nbsp;</a></span>has_subscript</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_subscript = requires(T t) {t[0u];}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T type has a subscript 't[0u]' operator overloading. </p>
+
+</div>
+</div>
+<a id="a9562043c31c7aa0a8c86307fce649e3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9562043c31c7aa0a8c86307fce649e3a">&#9670;&nbsp;</a></span>has_subtraction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_subtraction = requires(T t, U u) {t - u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a subtraction 't - t' or 't - u' operator overloading. </p>
+
+</div>
+</div>
+<a id="ae289862b28e47992b391b8bfe3d90fb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae289862b28e47992b391b8bfe3d90fb4">&#9670;&nbsp;</a></span>has_subtraction_assignment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_subtraction_assignment = requires(T t, U u) {t -= u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a subtraction assignment 't -= t' or 't -= u' operator overloading. </p>
+
+</div>
+</div>
+<a id="a244b470ae7281dc1befada80a359c509"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a244b470ae7281dc1befada80a359c509">&#9670;&nbsp;</a></span>has_unary_minus</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_unary_minus = requires(T t) {-t;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T type has a unary minus '-t' operator overloading. </p>
+
+</div>
+</div>
+<a id="a903f53c86df13f1afc961ad35ba6e601"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a903f53c86df13f1afc961ad35ba6e601">&#9670;&nbsp;</a></span>has_unary_plus</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_unary_plus = requires(T t) {+t;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T type has a unary plus '+t' operator overloading. </p>
+
+</div>
+</div>
+<a id="ae057b9f2b79a0a56ccb640c70401bbd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae057b9f2b79a0a56ccb640c70401bbd0">&#9670;&nbsp;</a></span>has_xor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_xor = requires(T t, U u) {t ^ u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a bitwise xor 't ^ t' or 't ^ u' operator overloading. </p>
+
+</div>
+</div>
+<a id="a3c35f6636c99553e5a1160831e26c629"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c35f6636c99553e5a1160831e26c629">&#9670;&nbsp;</a></span>has_xor_assignment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::has_xor_assignment = requires(T t, U u) {t ^= u;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T and U types share a bitwise xor assignment 't ^= t' or 't ^= u' operator overloading. </p>
+
+</div>
+</div>
 <a id="a085566a22518aa31163a8257619ee5fd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a085566a22518aa31163a8257619ee5fd">&#9670;&nbsp;</a></span>is_array</h2>
 
@@ -560,6 +1522,26 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="ac1947fb858c79421f62b8752f334039a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1947fb858c79421f62b8752f334039a">&#9670;&nbsp;</a></span>is_class</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::is_class = __is_class(T)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T is a class type <br  />
+ <br  />
+ Remember that class types are: incomplete class, class and struct. </p>
+
+</div>
+</div>
 <a id="acd8792f02616cdd30612f05ed7b26ddb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acd8792f02616cdd30612f05ed7b26ddb">&#9670;&nbsp;</a></span>is_const</h2>
 
@@ -577,6 +1559,26 @@ template&lt;class T &gt; </div>
 <p>Returns at compile-time if T has a const qualifier. </p>
 <dl class="section examples"><dt>Examples</dt><dd><a class="el" href="concepts_2add_const_8cpp-example.html#a0">concepts/add_const.cpp</a>, and <a class="el" href="concepts_2remove_const_8cpp-example.html#a0">concepts/remove_const.cpp</a>.</dd>
 </dl>
+
+</div>
+</div>
+<a id="ae15a4819df0eba4814472736c7880a01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae15a4819df0eba4814472736c7880a01">&#9670;&nbsp;</a></span>is_enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::is_enum = __is_enum(T)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T is an enumeration type <br  />
+ <br  />
+ Remember that enumeration types are: enum and enum class. </p>
 
 </div>
 </div>
@@ -755,6 +1757,24 @@ template&lt;class T , const u64 Size&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns at compile-time if Size is equal to the size of T. </p>
+
+</div>
+</div>
+<a id="afed9ea1c1876c6880e3e9b93cde6e063"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afed9ea1c1876c6880e3e9b93cde6e063">&#9670;&nbsp;</a></span>is_union</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">concept lux::concepts::is_union = __is_union(T)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns at compile-time if T is a union type. </p>
 
 </div>
 </div>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['s128_281',['s128',['../intrinsics_8hpp.html#a75dc2d956acc07b32fecc461a5127559',1,'intrinsics.hpp']]]
+  ['s128_465',['s128',['../intrinsics_8hpp.html#a75dc2d956acc07b32fecc461a5127559',1,'intrinsics.hpp']]]
 ];
