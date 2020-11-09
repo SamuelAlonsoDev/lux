@@ -5,12 +5,12 @@ namespace lux
 {
     using exception = std::exception;
 
-    class index_overflow : public exception
+    class null_ptr : public exception
     {
     public:
         inline const char* what() const throw()
         {
-            return "index overflow";
+            return "null_ptr";
         }
     };
 }
